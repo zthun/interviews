@@ -11,7 +11,7 @@
   },
   "scripts": {
     "clean": "rimraf dist reports *.tgz packages/**/dist packages/**/*.tgz packages/**/yarn-error.log *.log",
-    "test": "jest --coverage --runInBand --forceExit",
+    "test": "jest --coverage --runInBand",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {
