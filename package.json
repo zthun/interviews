@@ -1,6 +1,6 @@
 {
   "name": "@zthun/interviews",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A repository for demoing code for coding interviews.",
   "author": "Anthony Bonta",
   "license": "MIT",
@@ -12,12 +12,16 @@
   "scripts": {
     "clean": "rimraf dist reports *.tgz packages/**/dist packages/**/*.tgz packages/**/yarn-error.log *.log",
     "test": "jest --coverage --runInBand",
+    "lint": "lint-janitor",
+    "build": "tsc -p tsconfig.prod.json",
+    "make": "npm run clean && npm run lint && npm run test && npm run build",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "@types/lodash": "^4.0.0",
     "@types/node": "^14.0.18",
+    "@zthun/lint-janitor": "^9.0.0",
     "jest": "^26.1.0",
     "jsdom": "^16.2.2",
     "lodash": "^4.17.15",

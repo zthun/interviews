@@ -1,3 +1,5 @@
 /* istanbul ignore file */
 
-console.log('Welcome to interviews.  You can use this to demo interview code.');
+import { welcome } from './greetings/welcome';
+
+welcome(console);
