@@ -12,6 +12,5 @@ export const WelcomeMessage = 'Welcome to interviews.  You can use this to demo 
  */
 export function welcome(logger: Console) {
   logger.log(WelcomeMessage);
-
   return WelcomeMessage;
 }
