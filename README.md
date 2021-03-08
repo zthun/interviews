@@ -7,6 +7,6 @@ This is a git repository that anyone can clone. It basically adds a scaffolding 
 ```sh
 git checkout https://github.com/zthun/interviews
 cd interviews
-yarn install
-yarn test
+npm install
+npm test
 ```
