@@ -1,7 +1,7 @@
 {
   "name": "@zthun/interviews",
   "version": "0.0.1",
-  "description": "A repository for demoing code for coding interviews.",
+  "description": "A repository for demoing code for coding interviews.  Also has common problem solutions found on leet code.",
   "author": "Anthony Bonta",
   "license": "MIT",
   "private": true,
