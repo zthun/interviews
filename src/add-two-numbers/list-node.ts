@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */
 export class ListNode {
   val: number;
   next: ListNode;

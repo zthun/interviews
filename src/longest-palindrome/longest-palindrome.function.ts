@@ -1,5 +1,3 @@
-/* eslint-disable require-jsdoc */
-
 function _lengthOfPalindrome(s: string, l: number, r: number): number {
   while (l >= 0 && l < s.length && s.charAt(l) === s.charAt(r)) {
     --l;

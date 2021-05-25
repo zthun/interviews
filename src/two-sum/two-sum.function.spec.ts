@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */
 import { twoSum } from './two-sum.function';
 
 describe('TwoSum', () => {

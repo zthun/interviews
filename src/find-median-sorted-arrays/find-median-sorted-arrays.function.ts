@@ -1,5 +1,3 @@
-/* eslint-disable require-jsdoc */
-
 export function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
   nums1 = nums1 || [];
   nums2 = nums2 || [];

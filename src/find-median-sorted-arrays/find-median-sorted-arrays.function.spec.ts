@@ -1,5 +1,3 @@
-/* eslint-disable require-jsdoc */
-
 import { findMedianSortedArrays } from './find-median-sorted-arrays.function';
 
 describe('FindMedianSortedArrays', () => {

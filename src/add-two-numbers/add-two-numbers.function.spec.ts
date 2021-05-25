@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */
 import { addTwoNumbers } from './add-two-numbers.function';
 import { ListNode } from './list-node';
 

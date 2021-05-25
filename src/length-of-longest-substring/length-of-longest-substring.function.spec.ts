@@ -1,6 +1,5 @@
 import { lengthOfLongestSubstring } from './length-of-longest-substring.function';
 
-/* eslint-disable require-jsdoc */
 describe('LengthOfLongestSubstring', () => {
   function assertLengthOfLongestSubstring(expected: number, input: string) {
     // Arrange

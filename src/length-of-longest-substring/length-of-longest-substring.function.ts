@@ -1,5 +1,3 @@
-/* eslint-disable require-jsdoc */
-
 export function lengthOfLongestSubstring(str: string): number {
   const lookup: { [key: string]: number } = {};
   let left = 0;

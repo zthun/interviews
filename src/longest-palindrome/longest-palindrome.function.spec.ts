@@ -1,6 +1,5 @@
 import { longestPalindrome } from './longest-palindrome.function';
 
-/* eslint-disable require-jsdoc */
 describe('LongestPalindrome', () => {
   function assertLongestPalindrome(expected: string, input: string) {
     // Arrange
