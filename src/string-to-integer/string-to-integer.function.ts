@@ -49,11 +49,6 @@ export function myAtoi(input: string): number {
   }
 
   result = +sanitized;
-
-  if (isNaN(result)) {
-    return 0;
-  }
-
   result *= multiplier;
   result = Math.max(-2147483648, result);
   result = Math.min(2147483647, result);
