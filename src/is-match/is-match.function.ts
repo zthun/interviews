@@ -5,6 +5,8 @@ function _isMatch(s: string, p: string, si: number, pi: number): boolean {
     const pCharNext = p.charAt(pi + 1);
 
     if (pCharNext === '*') {
+      // If we hit a klein star, then we have to test the permutations
+      // of the rest of the string.
       pi += 2;
       let sSkip = sChar;
       let siSkip = si;
