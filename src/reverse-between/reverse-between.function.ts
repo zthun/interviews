@@ -1,4 +1,4 @@
-import { ListNode } from './list-node.class';
+import { ListNode } from './list-node';
 
 export function reverseBetween(head: ListNode, left: number, right: number): ListNode {
   const begin = new ListNode(null, head);

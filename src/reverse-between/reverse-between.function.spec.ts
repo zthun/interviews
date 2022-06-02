@@ -1,4 +1,4 @@
-import { arrayToList, listToArray } from './list-node.class';
+import { arrayToList, listToArray } from './list-node';
 import { reverseBetween } from './reverse-between.function';
 
 describe('ReverseBetween', () => {
