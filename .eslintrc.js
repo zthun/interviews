@@ -1,3 +1,6 @@
-const options = require('@zthun/eslint-config');
-delete options.rules['require-jsdoc'];
-module.exports = options;
+module.exports = {
+  extends: ['@zthun/eslint-config'],
+  rules: {
+    'require-jsdoc': 'off'
+  }
+};
