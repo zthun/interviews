@@ -2,6 +2,17 @@
   "version": "0.2",
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
   "language": "en",
-  "words": ["atoi", "Bonta", "zthun", "zthunworks"],
-  "dictionaries": ["typescript", "node", "npm", "en_US"]
+  "words": [
+    "atoi",
+    "Bonta",
+    "lumberjacky",
+    "zthun",
+    "zthunworks"
+  ],
+  "dictionaries": [
+    "typescript",
+    "node",
+    "npm",
+    "en_US"
+  ]
 }

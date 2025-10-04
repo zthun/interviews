@@ -1,0 +1,48 @@
+{
+  "name": "@zthun/interview-nest",
+  "version": "1.0.0",
+  "description": "A package for use with interviews that focus on nest js (or just backend apis in general).",
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/pokedexii",
+    "directory": "packages/interview-nest"
+  },
+  "scripts": {
+    "build": "vite build",
+    "debug": "tsx watch --inspect=0.0.0.0:9229 ./src/main.mts",
+    "start": "node ./bin/main.mjs"
+  },
+  "bin": "./bin/main.mjs",
+  "dependencies": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/core": "^11.1.6",
+    "@nestjs/platform-express": "^11.1.6",
+    "@nestjs/swagger": "^11.2.0",
+    "@zthun/helpful-fn": "^9.4.5",
+    "@zthun/helpful-query": "^9.4.5",
+    "@zthun/lumberjacky-log": "^3.0.6",
+    "@zthun/lumberjacky-nest": "^3.0.6",
+    "helmet": "^8.1.0",
+    "lodash-es": "^4.17.21",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^11.1.6",
+    "@zthun/janitor-build-config": "^19.3.6",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "vitest": "^3.2.4",
+    "vitest-mock-extended": "^3.1.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false
+}
