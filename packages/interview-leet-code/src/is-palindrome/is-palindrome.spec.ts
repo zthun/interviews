@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isPalindrome } from "./is-palindrome.js";
+import { isPalindrome } from "./is-palindrome.mjs";
 
 describe("isPalindrome", () => {
   function assertIsPalindrome(expected: boolean, num: number) {

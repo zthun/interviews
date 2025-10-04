@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isMatch } from "./is-match.js";
+import { isMatch } from "./is-match.mjs";
 
 describe("isMatch", () => {
   function assertMatch(expected: boolean, test: string, pattern: string) {

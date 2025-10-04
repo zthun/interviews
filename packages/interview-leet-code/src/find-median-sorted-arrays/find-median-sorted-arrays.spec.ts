@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findMedianSortedArrays } from "./find-median-sorted-arrays.js";
+import { findMedianSortedArrays } from "./find-median-sorted-arrays.mjs";
 
 describe("FindMedianSortedArrays", () => {
   function assertMedian(

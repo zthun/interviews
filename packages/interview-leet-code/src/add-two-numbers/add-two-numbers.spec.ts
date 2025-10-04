@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { addTwoNumbers } from "./add-two-numbers.js";
-import { ListNode } from "./list-node.js";
+import { addTwoNumbers } from "./add-two-numbers.mjs";
+import { ListNode } from "./list-node.mjs";
 
 describe("AddTwoNumbers", () => {
   function assertAddsTwoNumbers(expected: ListNode, x: ListNode, y: ListNode) {

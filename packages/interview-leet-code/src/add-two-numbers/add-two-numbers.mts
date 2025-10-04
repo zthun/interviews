@@ -1,4 +1,4 @@
-import { ListNode } from "./list-node.js";
+import { ListNode } from "./list-node.mjs";
 
 export function addTwoNumbers(l1: ListNode, l2: ListNode): ListNode | null {
   function addDigits(x: ListNode, y: ListNode, c: 0 | 1): [ListNode, 0 | 1] {

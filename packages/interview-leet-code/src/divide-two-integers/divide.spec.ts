@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { divide } from "./divide.js";
+import { divide } from "./divide.mjs";
 
 describe("Divide", () => {
   function assertDivide(expected: number, dividend: number, divisor: number) {
