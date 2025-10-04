@@ -4201,6 +4201,7 @@ __metadata:
     "@zthun/janitor-build-config": "npm:^19.3.6"
     "@zthun/lumberjacky-log": "npm:^3.0.6"
     "@zthun/lumberjacky-nest": "npm:^3.0.6"
+    "@zthun/webigail-http": "npm:^4.0.8"
     helmet: "npm:^8.1.0"
     lodash-es: "npm:^4.17.21"
     reflect-metadata: "npm:^0.2.2"

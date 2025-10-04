@@ -11,6 +11,12 @@ services:
       - interview-react
 
   # Node Ports
+  interview-nest:
+    image: node:lts
+    volumes:
+      - .:/usr/dev
+    working_dir: /usr/dev
+    command: yarn workspace @zthun/interview-nest debug
   interview-react:
     image: node:lts
     volumes:

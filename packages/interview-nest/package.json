@@ -26,6 +26,7 @@
     "@zthun/helpful-query": "^9.4.5",
     "@zthun/lumberjacky-log": "^3.0.6",
     "@zthun/lumberjacky-nest": "^3.0.6",
+    "@zthun/webigail-http": "^4.0.8",
     "helmet": "^8.1.0",
     "lodash-es": "^4.17.21",
     "reflect-metadata": "^0.2.2",

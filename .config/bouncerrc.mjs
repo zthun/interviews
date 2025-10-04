@@ -4,7 +4,7 @@ export default {
       host: "interviews.local.zthunworks.com",
       paths: {
         "/": "interview-react:5173",
-        "/api": "interviews-nest:3000/api",
+        "/api": "interview-nest:3000/api",
       },
     },
   ],
