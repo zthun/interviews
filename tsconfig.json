@@ -8,6 +8,5 @@
       "@zthun/interview-react": ["interview-react/src/index.mts"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.mts"],
-  "exclude": ["**/node_modules/**"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.mts"]
 }
