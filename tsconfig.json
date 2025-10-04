@@ -1,16 +1,13 @@
 {
+  "extends": "./.config/.tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "removeComments": true,
-    "sourceMap": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "declaration": true,
+    "baseUrl": "packages",
     "target": "esnext",
-    "module": "CommonJS"
+    "paths": {
+      "@zthun/interview-nest": ["interview-nest/src/index.mts"],
+      "@zthun/interview-react": ["interview-react/src/index.mts"]
+    }
   },
-  "include": ["src/**/*.ts"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.mts"],
+  "exclude": ["**/node_modules/**"]
 }

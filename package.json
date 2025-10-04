@@ -5,31 +5,44 @@
   "author": "Anthony Bonta",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/zthun/interviews"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "clean": "rimraf dist reports *.tgz packages/**/dist packages/**/*.tgz packages/**/yarn-error.log *.log",
-    "test": "jest --coverage --runInBand",
-    "lint": "lint-janitor",
-    "build": "tsc -p tsconfig.prod.json",
+    "check": "tsc --noEmit",
+    "test": "vitest --run --coverage",
+    "lint": "janitor-lint",
+    "build": "lerna run build",
     "make": "npm run clean && npm run lint && npm run test && npm run build",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {
-    "@types/jest": "^28.1.0",
-    "@types/lodash": "^4.14.182",
-    "@types/node": "^17.0.38",
-    "@zthun/lint-janitor": "^11.2.1",
-    "@zthun/lint-janitor-config": "^11.2.1",
-    "jest": "^28.1.0",
-    "jsdom": "^19.0.0",
-    "lodash": "^4.17.21",
-    "rimraf": "^3.0.2",
-    "ts-jest": "^28.0.3",
-    "ts-node": "^10.8.0",
-    "typescript": "^4.7.2"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/supertest": "^6.0.3",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@zthun/janitor-build-config": "^19.3.4",
+    "@zthun/janitor-lint": "^19.3.4",
+    "@zthun/janitor-lint-config": "^19.3.4",
+    "@zthun/janitor-options": "^19.3.4",
+    "happy-dom": "^18.0.1",
+    "husky": "^9.1.7",
+    "lerna": "^8.2.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
   },
   "packageManager": "yarn@4.10.3"
 }
