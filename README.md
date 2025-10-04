@@ -9,5 +9,5 @@ app for the purpose of demoing code questions for coding interviews.
 git checkout https://github.com/zthun/interviews
 cd interviews
 yarn install
-yarn test
+yarn make
 ```
