@@ -9,7 +9,7 @@
  */
 export function merge(intervals: number[][]): number[][] {
   const input = intervals.slice();
-  const output = [];
+  const output: number[][] = [];
 
   if (!input?.length) {
     return output;
