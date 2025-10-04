@@ -4,14 +4,14 @@ function _isMatch(s: string, p: string, si: number, pi: number): boolean {
     const sChar = s.charAt(si);
     const pCharNext = p.charAt(pi + 1);
 
-    if (pCharNext === '*') {
+    if (pCharNext === "*") {
       // If we hit a klein star, then we have to test the permutations
       // of the rest of the string.
       pi += 2;
       let sSkip = sChar;
       let siSkip = si;
 
-      while (siSkip < s.length && (sSkip === pChar || pChar === '.')) {
+      while (siSkip < s.length && (sSkip === pChar || pChar === ".")) {
         siSkip++;
         sSkip = s.charAt(siSkip);
       }
@@ -27,19 +27,19 @@ function _isMatch(s: string, p: string, si: number, pi: number): boolean {
       return false;
     }
 
-    if (pChar === '.' && sChar !== '') {
+    if (pChar === "." && sChar !== "") {
       ++si;
       continue;
     }
 
-    if (pChar === '.' || pChar !== sChar) {
+    if (pChar === "." || pChar !== sChar) {
       return false;
     }
 
     ++si;
   }
 
-  return s.charAt(si) === '';
+  return s.charAt(si) === "";
 }
 
 /**

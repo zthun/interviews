@@ -8,7 +8,7 @@
 export function isPalindrome(x: number): boolean {
   // So funny thing here is that the conversion to a string is much
   // simpler and is actually faster that not using the string.
-  return +x.toString().split('').reverse().join('') === x;
+  return +x.toString().split("").reverse().join("") === x;
 
   /*
 

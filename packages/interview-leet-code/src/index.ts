@@ -1,5 +1,1 @@
-/* istanbul ignore file */
-
-import { welcome } from './greetings/welcome';
-
-welcome(console);
+export const Welcome = "Welcome to playing with leet code";
