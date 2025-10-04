@@ -3,7 +3,7 @@ export function lengthOfLongestSubstring(str: string): number {
   let left = 0;
   let right = 0;
   let len = 0;
-  str = str || '';
+  str = str || "";
 
   while (right < str.length) {
     const r = str.charAt(right);

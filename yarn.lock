@@ -3974,6 +3974,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zthun/interview-leet-code@workspace:packages/interview-leet-code":
+  version: 0.0.0-use.local
+  resolution: "@zthun/interview-leet-code@workspace:packages/interview-leet-code"
+  dependencies:
+    "@types/node": "npm:^24.6.2"
+    "@zthun/janitor-build-config": "npm:^19.3.6"
+    date-fns: "npm:^4.1.0"
+    history: "npm:^5.3.0"
+    lodash-es: "npm:^4.17.21"
+    typescript: "npm:^5.9.3"
+    vite: "npm:^7.1.9"
+    vitest: "npm:^3.2.4"
+    vitest-mock-extended: "npm:^3.1.0"
+  languageName: unknown
+  linkType: soft
+
 "@zthun/interview-react@workspace:packages/interview-react":
   version: 0.0.0-use.local
   resolution: "@zthun/interview-react@workspace:packages/interview-react"

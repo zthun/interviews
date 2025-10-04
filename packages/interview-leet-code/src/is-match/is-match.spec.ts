@@ -39,6 +39,7 @@ describe("isMatch", () => {
   });
 
   it("should match (e5).", () => {
+    // cspell:ignore aaaba
     assertMatch(true, "aaaba", "a*ab.");
   });
 

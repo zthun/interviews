@@ -11,6 +11,7 @@ describe("LengthOfLongestSubstring", () => {
   }
 
   it("should calculate the length of the longest substring (e1).", () => {
+    // cspell:ignore abcabcbb
     assertLengthOfLongestSubstring(3, "abcabcbb");
   });
 
@@ -19,14 +20,17 @@ describe("LengthOfLongestSubstring", () => {
   });
 
   it("should calculate the length of the longest substring (e3).", () => {
+    // cspell:ignore pwwkew
     assertLengthOfLongestSubstring(3, "pwwkew");
   });
 
   it("should calculate the length of the longest substring (e4).", () => {
+    // cspell:ignore pwwwkewui
     assertLengthOfLongestSubstring(5, "pwwwkewui");
   });
 
   it("should calculate the length of the longest substring (e5).", () => {
+    // cspell:ignore dvdf
     assertLengthOfLongestSubstring(3, "dvdf");
   });
 

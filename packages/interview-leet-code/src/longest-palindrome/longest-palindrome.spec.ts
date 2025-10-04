@@ -11,10 +11,12 @@ describe("LongestPalindrome", () => {
   }
 
   it("should return the longest palindrome (e1).", () => {
+    //cspell:ignore babad
     assertLongestPalindrome("aba", "babad");
   });
 
   it("should return the longest palindrome (e2).", () => {
+    //cspell:ignore cbbd
     assertLongestPalindrome("bb", "cbbd");
   });
 
@@ -31,10 +33,13 @@ describe("LongestPalindrome", () => {
   });
 
   it("should return the longest palindrome (e6).", () => {
+    //cspell:ignore cabbac
     assertLongestPalindrome("cabbac", "cabbac");
   });
 
   it("should return the longest palindrome (e7).", () => {
+    //cspell:ignore ddtattarrattatdd
+    //cspell:ignore babaddtattarrattatddetartrateedredividerb
     assertLongestPalindrome(
       "ddtattarrattatdd",
       "babaddtattarrattatddetartrateedredividerb",
