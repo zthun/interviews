@@ -1,6 +1,6 @@
 services:
   # Load Balancer (Entry Point)
-  interview.local.zthunworks.com:
+  interviews.local.zthunworks.com:
     image: zthun/bouncer
     ports:
       - 80:80
