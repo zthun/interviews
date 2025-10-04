@@ -16,4 +16,4 @@ services:
     volumes:
       - .:/usr/dev
     working_dir: /usr/dev
-    command: yarn workspace @zthun/interview-react run start
+    command: yarn workspace @zthun/interview-react start
