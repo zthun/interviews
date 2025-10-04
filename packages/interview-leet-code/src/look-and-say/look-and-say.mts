@@ -1,7 +1,7 @@
 export function lookAndSay<T>(input: T): string {
-  const inputString = (input || '').toString();
-  let description = '';
-  let last = '';
+  const inputString = (input || "").toString();
+  let description = "";
+  let last = "";
   let cnt = 0;
 
   for (let i = 0; i < inputString.length; ++i) {

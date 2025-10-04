@@ -7,8 +7,8 @@ function _lengthOfPalindrome(s: string, l: number, r: number): number {
   return r - l - 1;
 }
 
-export function longestPalindrome(s: string): string {
-  s = s || '';
+export function longestPalindrome(s: string | null): string {
+  s = s || "";
 
   let start = 0;
   let end = 0;
