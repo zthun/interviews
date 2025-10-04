@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { addTwoNumbers } from "./add-two-numbers.function.js";
+import { addTwoNumbers } from "./add-two-numbers.js";
 import { ListNode } from "./list-node.js";
 
 describe("AddTwoNumbers", () => {

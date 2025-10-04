@@ -10,7 +10,8 @@ export function divide(dividend: number, divisor: number): number {
   // Bit shifting with negatives doesn't produce the result we want, so we
   // will normalize to always divide positive numbers.  At the end,
   // we will use basic math rules to flip the sign if we have to.
-  const positive = (dividend <= 0 && divisor <= 0) || (dividend >= 0 && divisor >= 0);
+  const positive =
+    (dividend <= 0 && divisor <= 0) || (dividend >= 0 && divisor >= 0);
   divisor = divisor < 0 ? 0 - divisor : divisor;
   dividend = dividend < 0 ? 0 - dividend : dividend;
 
@@ -36,7 +37,11 @@ export function divide(dividend: number, divisor: number): number {
   const _divisor = divisor;
   let quotient = 1;
 
-  for (let next = divisor << 1; next > 0 && next <= dividend; next = divisor << 1) {
+  for (
+    let next = divisor << 1;
+    next > 0 && next <= dividend;
+    next = divisor << 1
+  ) {
     divisor <<= 1;
     quotient <<= 1;
   }
