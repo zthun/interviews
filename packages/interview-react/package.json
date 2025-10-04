@@ -19,7 +19,8 @@
     "import": "./dist/index.js"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "start": "vite"
   },
   "publishConfig": {
     "access": "public"
