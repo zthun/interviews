@@ -1,8 +1,8 @@
-function _sanitize(input: string) {
-  const sp = ' ';
+function _sanitize(input: string | null) {
+  const sp = " ";
 
   if (!input) {
-    return '';
+    return "";
   }
 
   let first = 0;
@@ -15,20 +15,20 @@ function _sanitize(input: string) {
 }
 
 function _isDigit(char: string) {
-  return char >= '0' && char <= '9';
+  return char >= "0" && char <= "9";
 }
 
-export function myAtoi(input: string): number {
+export function myAtoi(input: string | null): number {
   let result = 0;
 
   let sanitized = _sanitize(input);
   let multiplier = 1;
 
-  if (sanitized.charAt(0) === '-') {
+  if (sanitized.charAt(0) === "-") {
     multiplier = -1;
   }
 
-  if (sanitized.charAt(0) === '-' || sanitized.charAt(0) === '+') {
+  if (sanitized.charAt(0) === "-" || sanitized.charAt(0) === "+") {
     sanitized = sanitized.substr(1);
   }
 

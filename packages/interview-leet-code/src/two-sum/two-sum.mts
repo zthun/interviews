@@ -1,4 +1,7 @@
-export function twoSum(numbers: number[], target: number): [number, number] {
+export function twoSum(
+  numbers: number[],
+  target: number,
+): [number, number] | undefined {
   const lookup: { [key: number]: number } = {};
 
   for (let i = 0; i < numbers.length; ++i) {

@@ -29,7 +29,7 @@ export function isNumber(s: string): boolean {
   // with the exception of some edge cases, we can simply just remove those
   // edge cases and just use the built in engine functions to parse this for us.
   // Your junior developers will thank you later.
-  if (s.toLowerCase().indexOf('infinity') >= 0) {
+  if (s.toLowerCase().indexOf("infinity") >= 0) {
     // Also, this case is from leet code and for some reason, they don't
     // consider the string 'Infinity' to be a number.  My professors will
     // debate you later.

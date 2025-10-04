@@ -18,7 +18,7 @@ export function reverse(x: number): number {
   // is the number of digits in x.  In TypeScript, I will pick this solution
   // over that one since this one is easier for non experts to understand and
   // grasp and it's easier for people to debug and read.
-  const s = x.toString().split('').reverse().join('');
+  const s = x.toString().split("").reverse().join("");
   const n = +s;
 
   if (n > 2147483647 || n < -2147483648) {

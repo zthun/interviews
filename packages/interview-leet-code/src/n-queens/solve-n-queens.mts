@@ -12,21 +12,21 @@
  */
 function _queenIsSafe(row: number, col: number, board: string[][]) {
   for (let r = row - 1; r >= 0; --r) {
-    if (board[r][col] === 'Q') {
+    if (board[r][col] === "Q") {
       return false;
     }
   }
 
   // Check the upper left diagonal.
   for (let r = row - 1, c = col - 1; r >= 0 && c >= 0; --r, --c) {
-    if (board[r][c] === 'Q') {
+    if (board[r][c] === "Q") {
       return false;
     }
   }
 
   // Check the upper right diagonal.
   for (let r = row - 1, c = col + 1; r >= 0 && c < board.length; --r, ++c) {
-    if (board[r][c] === 'Q') {
+    if (board[r][c] === "Q") {
       return false;
     }
   }
@@ -41,11 +41,15 @@ function _queenIsSafe(row: number, col: number, board: string[][]) {
  * @param row The row at which we are placing queens
  * @param solved The current solutions that have been discovered.
  */
-function _solveNQueens(board: string[][], row: number, solved: string[][]): void {
+function _solveNQueens(
+  board: string[][],
+  row: number,
+  solved: string[][],
+): void {
   if (row === board.length) {
     // If we've hit this case, then we've found a solution so we can add it to
     // list of solved boards.
-    solved.push(board.map((b) => b.join('')));
+    solved.push(board.map((b) => b.join("")));
     return;
   }
 
@@ -60,9 +64,9 @@ function _solveNQueens(board: string[][], row: number, solved: string[][]): void
       continue;
     }
 
-    board[row][col] = 'Q';
+    board[row][col] = "Q";
     _solveNQueens(board, row + 1, solved);
-    board[row][col] = '.';
+    board[row][col] = ".";
   }
 }
 
@@ -86,7 +90,7 @@ export function solveNQueens(n: number): string[][] {
     board[r] = [];
     board[r].length = n;
     for (let c = 0; c < n; ++c) {
-      board[r][c] = '.';
+      board[r][c] = ".";
     }
   }
 

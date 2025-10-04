@@ -1,6 +1,7 @@
-import { merge } from './merge.function';
+import { describe, expect, it } from "vitest";
+import { merge } from "./merge.mjs";
 
-describe('MergeIntervals', () => {
+describe("MergeIntervals", () => {
   function assertMerged(expected: number[][], pairs: number[][]) {
     // Arrange
     // Act
@@ -9,43 +10,43 @@ describe('MergeIntervals', () => {
     expect(actual).toEqual(expected);
   }
 
-  it('should return the empty array for empty.', () => {
+  it("should return the empty array for empty.", () => {
     assertMerged([], []);
   });
 
-  it('should merge overlapping pairs (e1).', () => {
+  it("should merge overlapping pairs (e1).", () => {
     assertMerged(
       [
         [1, 6],
         [8, 10],
-        [15, 18]
+        [15, 18],
       ],
       [
         [1, 3],
         [2, 6],
         [8, 10],
-        [15, 18]
-      ]
+        [15, 18],
+      ],
     );
   });
 
-  it('should merge overlapping pairs (e2).', () => {
+  it("should merge overlapping pairs (e2).", () => {
     assertMerged(
       [[1, 5]],
       [
         [1, 4],
-        [4, 5]
-      ]
+        [4, 5],
+      ],
     );
   });
 
-  it('should merge overlapping pairs (e3).', () => {
+  it("should merge overlapping pairs (e3).", () => {
     assertMerged(
       [[1, 4]],
       [
         [1, 4],
-        [2, 3]
-      ]
+        [2, 3],
+      ],
     );
   });
 });
