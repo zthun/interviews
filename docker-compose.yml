@@ -1,0 +1,19 @@
+services:
+  # Load Balancer (Entry Point)
+  interview.local.zthunworks.com:
+    image: zthun/bouncer
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./.config:/.config
+    depends_on:
+      - interview-react
+
+  # Node Ports
+  interview-react:
+    image: node:lts
+    volumes:
+      - .:/usr/dev
+    working_dir: /usr/dev
+    command: yarn workspace @zthun/interview-react run start
