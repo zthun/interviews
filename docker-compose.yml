@@ -13,6 +13,8 @@ services:
   # Node Ports
   interview-nest:
     image: node:lts
+    ports:
+      - 9229:9229
     volumes:
       - .:/usr/dev
     working_dir: /usr/dev
