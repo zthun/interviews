@@ -28,5 +28,8 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "@zthun/lumberjacky-log": "^3.0.6"
+  }
 }

@@ -1,3 +1,6 @@
+import { ZLogEntryBuilder, ZLoggerConsole } from "@zthun/lumberjacky-log";
 import { Welcome } from "./index.mjs";
 
-console.log(Welcome);
+const logger = new ZLoggerConsole(console);
+
+logger.log(new ZLogEntryBuilder().info().message(Welcome).build());

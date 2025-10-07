@@ -4177,6 +4177,7 @@ __metadata:
   dependencies:
     "@types/node": "npm:^24.6.2"
     "@zthun/janitor-build-config": "npm:^19.3.6"
+    "@zthun/lumberjacky-log": "npm:^3.0.6"
     date-fns: "npm:^4.1.0"
     history: "npm:^5.3.0"
     lodash-es: "npm:^4.17.21"
