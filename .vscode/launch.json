@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "attach",
-      "name": "Attach to @zthun/interview-nest",
+      "name": "Attach to Interview Nest",
       "port": 9229,
       "address": "0.0.0.0",
       "remoteRoot": "/usr/dev",
@@ -12,6 +12,14 @@
       "sourceMapPathOverrides": {
         "/usr/dev/*": "${workspaceRoot}/*"
       }
+    },
+    {
+      "name": "Run Interview Leet Code",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/interview-leet-code/src/cli.mts",
+      "runtimeExecutable": "tsx",
+      "console": "integratedTerminal"
     }
   ]
 }
