@@ -1,6 +1,7 @@
 import type { IZCircusDriver, IZCircusSetup } from "@zthun/cirque";
 import { ZCircusBy } from "@zthun/cirque";
 import { ZCircusSetupRenderer } from "@zthun/cirque-du-react";
+import { sleep } from "@zthun/helpful-fn";
 import {
   afterAll,
   afterEach,
@@ -37,6 +38,9 @@ describe("ZTimePage", () => {
     _renderer = new ZCircusSetupRenderer(element);
     _driver = await _renderer.setup();
 
+    // Wait for the first timer tick
+    await sleep(750);
+
     return ZCircusBy.first(_driver, ZTimePageComponentModel);
   };
 
@@ -47,6 +51,7 @@ describe("ZTimePage", () => {
       const target = await createTestTarget();
 
       // Act.
+
       const actual = await target.time();
 
       // Assert.
