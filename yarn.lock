@@ -4099,6 +4099,7 @@ __metadata:
   dependencies:
     "@types/node": "npm:^25.0.3"
     "@zthun/janitor-build-config": "npm:^19.5.4"
+    "@zthun/janitor-ts-config": "npm:^19.5.3"
     "@zthun/lumberjacky-log": "npm:^4.0.3"
     date-fns: "npm:^4.1.0"
     history: "npm:^5.3.0"
@@ -4122,6 +4123,7 @@ __metadata:
     "@zthun/helpful-fn": "npm:^9.11.2"
     "@zthun/helpful-query": "npm:^9.11.3"
     "@zthun/janitor-build-config": "npm:^19.5.4"
+    "@zthun/janitor-ts-config": "npm:^19.5.3"
     "@zthun/lumberjacky-log": "npm:^4.0.3"
     "@zthun/lumberjacky-nest": "npm:^4.0.3"
     "@zthun/webigail-http": "npm:^5.0.3"
@@ -4152,6 +4154,7 @@ __metadata:
     "@zthun/fashion-theme": "npm:^13.0.2"
     "@zthun/helpful-fn": "npm:^9.11.2"
     "@zthun/janitor-build-config": "npm:^19.5.4"
+    "@zthun/janitor-ts-config": "npm:^19.5.3"
     date-fns: "npm:^4.1.0"
     history: "npm:^5.3.0"
     lodash-es: "npm:^4.17.22"
@@ -4179,6 +4182,7 @@ __metadata:
     "@zthun/janitor-lint": "npm:^19.5.4"
     "@zthun/janitor-lint-config": "npm:^19.5.5"
     "@zthun/janitor-options": "npm:^19.5.4"
+    "@zthun/janitor-ts-config": "npm:^19.5.3"
     happy-dom: "npm:^20.0.11"
     husky: "npm:^9.1.7"
     lerna: "npm:^9.0.3"
@@ -4360,6 +4364,15 @@ __metadata:
     postcss: ^8.0.0
     stylelint: ^16.0.0
   checksum: 10/1bcaa2d63273807bd85c92beb70259846f40315ad8f6e31e927f0ddab062009d1e1386ff47b36753d56d8064488eedb591a326ac2bbe9f10ebaa266a4b818c2d
+  languageName: node
+  linkType: hard
+
+"@zthun/janitor-ts-config@npm:^19.5.3":
+  version: 19.5.3
+  resolution: "@zthun/janitor-ts-config@npm:19.5.3"
+  peerDependencies:
+    typescript: ^5.0.0
+  checksum: 10/2bee97906e424926e0dfbd70dbb9a137e683203358a4ebffd454111417dfe291cc17dd5d2cb80e5d5f4b0d5c1b3204b54eb4a57eb2cc57d3fc360fc3a4b3da98
   languageName: node
   linkType: hard
 
