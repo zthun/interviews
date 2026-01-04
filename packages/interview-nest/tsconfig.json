@@ -1,7 +1,8 @@
 {
-  "extends": "../../.config/.tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
+  "extends": [
+    "@zthun/janitor-ts-config/base",
+    "@zthun/janitor-ts-config/node",
+    "@zthun/janitor-ts-config/nest-js"
+  ],
   "include": ["src/**/*.ts", "src/**/*.mts", "./src/**/*.tsx"]
 }
