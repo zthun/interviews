@@ -1,10 +1,19 @@
 export default {
-  domains: [
+  servers: [
     {
-      host: "interviews.local.zthunworks.com",
-      paths: {
-        "/": "interview-react:5173",
-        "/api": "interview-nest:3000/api",
+      type: "http",
+      handle: "redirect",
+    },
+    {
+      type: "https",
+      security: {
+        domain: "local.zthunworks.com",
+      },
+      domains: {
+        "interviews.local.zthunworks.com": {
+          "/": "http://interview-react:5173",
+          "/api": "http://interview-nest:3000",
+        },
       },
     },
   ],
