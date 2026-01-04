@@ -4000,62 +4000,62 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/cirque@npm:^7.2.0, @zthun/cirque@npm:^7.2.4":
+"@zthun/cirque@npm:^7.2.4":
   version: 7.2.4
   resolution: "@zthun/cirque@npm:7.2.4"
   checksum: 10/1508008d8795ffc6c17d5f774d71b21a4d37841c3732538bb4eed163be925ca31575f707efd607010a2a6c0695f701300bdc5d0e60782f824b678eee0114541a
   languageName: node
   linkType: hard
 
-"@zthun/fashion-boutique@npm:^12.1.2":
-  version: 12.1.2
-  resolution: "@zthun/fashion-boutique@npm:12.1.2"
+"@zthun/fashion-boutique@npm:^13.0.3":
+  version: 13.0.3
+  resolution: "@zthun/fashion-boutique@npm:13.0.3"
   dependencies:
     "@emotion/css": "npm:^11.13.5"
     "@emotion/serialize": "npm:^1.3.3"
     "@emotion/sheet": "npm:^1.4.0"
-    "@zthun/cirque": "npm:^7.2.0"
-    "@zthun/fashion-tailor": "npm:^12.1.2"
-    "@zthun/fashion-theme": "npm:^12.1.2"
-    "@zthun/helpful-fn": "npm:^9.10.1"
-    "@zthun/helpful-query": "npm:^9.10.1"
-    "@zthun/helpful-react": "npm:^9.10.1"
-    "@zthun/webigail-http": "npm:^5.0.1"
-    "@zthun/webigail-url": "npm:^5.0.1"
-    csstype: "npm:^3.1.3"
+    "@zthun/cirque": "npm:^7.2.4"
+    "@zthun/fashion-tailor": "npm:^13.0.2"
+    "@zthun/fashion-theme": "npm:^13.0.2"
+    "@zthun/helpful-fn": "npm:^9.11.2"
+    "@zthun/helpful-query": "npm:^9.11.3"
+    "@zthun/helpful-react": "npm:^9.11.3"
+    "@zthun/webigail-http": "npm:^5.0.3"
+    "@zthun/webigail-url": "npm:^5.0.3"
+    csstype: "npm:^3.2.3"
     history: "npm:^5.3.0"
-    lodash-es: "npm:^4.17.21"
-    react-router-dom: "npm:^7.9.5"
+    lodash-es: "npm:^4.17.22"
+    react-router-dom: "npm:^7.11.0"
     stylis: "npm:^4.3.6"
   peerDependencies:
     react: ^18 || ^19
     react-dom: ^18 || ^19
-  checksum: 10/759ce130125469bac3a57f7be031029b717ce6b6db0ae36cf9ead175d6bd545ae8217f40cea9e92bc960f546e0554199e4408e30e0bc970c54e4b7ec90b131bb
+  checksum: 10/2ee14b98ab99949fb764e4efe1504b3c9bbf4746aa10797159b6cac728e562ef69a0da775d072a7da0ba97b9e72ceab2ec70da8e3449c0b3123d244de409920d
   languageName: node
   linkType: hard
 
-"@zthun/fashion-tailor@npm:^12.1.2":
-  version: 12.1.2
-  resolution: "@zthun/fashion-tailor@npm:12.1.2"
+"@zthun/fashion-tailor@npm:^13.0.2":
+  version: 13.0.2
+  resolution: "@zthun/fashion-tailor@npm:13.0.2"
   dependencies:
-    "@zthun/helpful-fn": "npm:^9.10.1"
-    lodash-es: "npm:^4.17.21"
-  checksum: 10/0bc2627128baf83b1dfb988ecc4e6a009b7e10e3d669fef94a532cd46a88f19fb2a99e5da2603a5aaeaa126922900e37d39594ae45eb3f1a9941ab4e4cfff125
+    "@zthun/helpful-fn": "npm:^9.11.2"
+    lodash-es: "npm:^4.17.22"
+  checksum: 10/690bcfd8fd2aadb638abc6a681b21b84dc722b9044462805ccabd68df0b72c9cf5fa708809e50227d84e821eb038c34904b13b44f14ba6a0e31f24eaf417570a
   languageName: node
   linkType: hard
 
-"@zthun/fashion-theme@npm:^12.1.2":
-  version: 12.1.2
-  resolution: "@zthun/fashion-theme@npm:12.1.2"
+"@zthun/fashion-theme@npm:^13.0.2":
+  version: 13.0.2
+  resolution: "@zthun/fashion-theme@npm:13.0.2"
   dependencies:
-    "@zthun/helpful-fn": "npm:^9.10.1"
-    csstype: "npm:^3.1.3"
-    lodash-es: "npm:^4.17.21"
-  checksum: 10/17a2764093603cc1c6ed2cd43bf2e4cc6d8d18a4502131818ef5bdcdffbe62d185c1a10a124cb97478670838fe2601f06796191c435dc8f548237f51df117632
+    "@zthun/helpful-fn": "npm:^9.11.2"
+    csstype: "npm:^3.2.3"
+    lodash-es: "npm:^4.17.22"
+  checksum: 10/4bf1c8a0520745e2b1f654bbcbffe3c8aeff97b37a2c2fa6c667e8dcc663fafe43b6e3e0919063d93bb29b6a0c0e6b4dbe943e9a2a71c2d7a18483a875634394
   languageName: node
   linkType: hard
 
-"@zthun/helpful-fn@npm:^9.10.1, @zthun/helpful-fn@npm:^9.11.2":
+"@zthun/helpful-fn@npm:^9.11.2":
   version: 9.11.2
   resolution: "@zthun/helpful-fn@npm:9.11.2"
   dependencies:
@@ -4064,7 +4064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/helpful-query@npm:^9.10.1, @zthun/helpful-query@npm:^9.11.3":
+"@zthun/helpful-query@npm:^9.11.3":
   version: 9.11.3
   resolution: "@zthun/helpful-query@npm:9.11.3"
   dependencies:
@@ -4074,7 +4074,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/helpful-react@npm:^9.10.1":
+"@zthun/helpful-react@npm:^9.11.3":
   version: 9.11.3
   resolution: "@zthun/helpful-react@npm:9.11.3"
   dependencies:
@@ -4147,9 +4147,9 @@ __metadata:
     "@types/node": "npm:^25.0.3"
     "@zthun/cirque": "npm:^7.2.4"
     "@zthun/cirque-du-react": "npm:^7.2.4"
-    "@zthun/fashion-boutique": "npm:^12.1.2"
-    "@zthun/fashion-tailor": "npm:^12.1.2"
-    "@zthun/fashion-theme": "npm:^12.1.2"
+    "@zthun/fashion-boutique": "npm:^13.0.3"
+    "@zthun/fashion-tailor": "npm:^13.0.2"
+    "@zthun/fashion-theme": "npm:^13.0.2"
     "@zthun/helpful-fn": "npm:^9.11.2"
     "@zthun/janitor-build-config": "npm:^19.5.4"
     date-fns: "npm:^4.1.0"
@@ -4386,7 +4386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/webigail-http@npm:^5.0.1, @zthun/webigail-http@npm:^5.0.3":
+"@zthun/webigail-http@npm:^5.0.3":
   version: 5.0.3
   resolution: "@zthun/webigail-http@npm:5.0.3"
   dependencies:
@@ -4397,7 +4397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/webigail-url@npm:^5.0.1, @zthun/webigail-url@npm:^5.0.3":
+"@zthun/webigail-url@npm:^5.0.3":
   version: 5.0.3
   resolution: "@zthun/webigail-url@npm:5.0.3"
   dependencies:
@@ -6005,7 +6005,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2, csstype@npm:^3.1.3, csstype@npm:^3.2.2":
+"csstype@npm:^3.0.2, csstype@npm:^3.2.2, csstype@npm:^3.2.3":
   version: 3.2.3
   resolution: "csstype@npm:3.2.3"
   checksum: 10/ad41baf7e2ffac65ab544d79107bf7cd1a4bb9bab9ac3302f59ab4ba655d5e30942a8ae46e10ba160c6f4ecea464cc95b975ca2fefbdeeacd6ac63f12f99fe1f
@@ -9398,7 +9398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.21, lodash-es@npm:^4.17.22":
+"lodash-es@npm:^4.17.22":
   version: 4.17.22
   resolution: "lodash-es@npm:4.17.22"
   checksum: 10/e93bcb57f9105b99269ff0fdcae5c2e6a5b607c7c520a6d8b5270ab608bd0c7e3346b03db5ddd994e569562600b7702615455c5f208418f9e82990aac0b76a91
@@ -11892,7 +11892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.9.5":
+"react-router-dom@npm:^7.11.0":
   version: 7.11.0
   resolution: "react-router-dom@npm:7.11.0"
   dependencies:
